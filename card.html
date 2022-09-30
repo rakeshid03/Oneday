@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<style>
+html {scroll-behavior: smooth;}
+html,body {
+  user-select: none;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+	margin: 0;}
+#card{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(0deg, rgba(2, 10, 10, 0.78) 0%, rgba(0, 0, 0, 0) 50%), url(media/dp.jpeg) center;
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-end;}
+#card .icon {
+    position: absolute;
+    margin-bottom: 2rem;
+    display: grid;
+    right: 0.5rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;}
+#card .icon div,#back{
+  border:1px solid RGBA(255, 255, 255, 0.18);
+  backdrop-filter: blur(1px);
+  height: 3.5rem;
+  width: 3.5rem;
+  z-index: 2;
+  font-size: 22px;
+  display: flex;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;}
+#back{
+  position: absolute;
+  left: 0.5rem;
+  margin-bottom: 44.5rem;}
+#card #userdetails{
+  position: absolute;
+  left: 0.5rem;
+  line-height: 5px;
+  margin-bottom: 2rem;
+  color: #FFFFFF;
+  padding: 0.2rem;
+  overflow: hidden;
+  width: 16rem;}
+#card #userdetails p{color: #C7C7C7;}
+#card #userdetails button{
+  border: none;
+  background-color: #0FA0CE;
+  color: #FFFFFF;
+  border-radius: 4px;
+  padding: 8px 33px;}
+#card #userdetails button:hover{
+  background-color: #e55d87;}
+ #uy::-webkit-scrollbar{display: none;}
+ .container{
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  display:flex;
+  flex-flow: column nowrap;
+  scroll-snap-type: y mandatory;}
+#a{width: 100%;
+   height: 100%;
+   flex: none;
+   scroll-snap-align: center;}
+#card #back a{
+  color: #FFFFFF;
+  text-decoration: none;}
+#back:hover a i{color: #e55d87;}
+#card .icon div:hover{color: #e55d87;}
+</style>
+</head>
+<body>
+<div class="container" id="uy">
+  <div id="a">
+     <div id="card">
+    <div id="back"><a href="index.html"> <i class="fa-solid fa-chevron-left"></i> </a></div>
+  <div class="icon">
+  <div><i class="fa-solid fa-heart"></i></div>
+  <div><i class="fa-solid fa-money-bill"></i></div>
+  <div><i class="fa-solid fa-plus"></i></div>
+  <div><i class="fa-solid fa-exclamation"></i></div>
+ </div>
+ <div id="userdetails">
+   <h1>₹10</h1><br/>
+   <h3>Rahul Sharma</h3>
+   <p>500 Scrore • 21 Age • Active</p>
+   <button>Profile</button>
+ </div>
+</div>
+  </div>
+  <div id="a">
+     <div id="card">
+  <div id="back"><a href="index.html"> <i class="fa-solid fa-chevron-left"></i> </a></div>
+  <div class="icon">
+  <div><i class="fa-solid fa-heart"></i></div>
+  <div><i class="fa-solid fa-money-bill"></i></div>
+  <div><i class="fa-solid fa-plus"></i></div>
+  <div><i class="fa-solid fa-exclamation"></i></div>
+ </div>
+ <div id="userdetails">
+   <h1>₹60</h1><br/>
+   <h3>Priya Pasi</h3>
+   <p>50 Scrore • 19 Age • Active</p>
+   <button>Profile</button>
+ </div>
+</div>
+  </div>
+  <div id="a">
+     <div id="card">
+<div id="back"><a href="index.html"> <i class="fa-solid fa-chevron-left"></i> </a></div>
+  <div class="icon">
+  <div><i class="fa-solid fa-heart"></i></div>
+  <div><i class="fa-solid fa-money-bill"></i></div>
+  <div><i class="fa-solid fa-plus"></i></div>
+  <div><i class="fa-solid fa-exclamation"></i></div>
+ </div>
+ <div id="userdetails">
+   <h1>₹20</h1><br/>
+   <h3>Vikky Jha</h3>
+   <p>100 Scrore • 21 Age • Offline</p>
+   <button>Profile</button>
+ </div>
+</div>
+  </div>
+  <div id="a">
+    <div id="card">
+ <div id="back"><a href="index.html"> <i class="fa-solid fa-chevron-left"></i> </a></div>
+  <div class="icon">
+  <div><i class="fa-solid fa-heart"></i></div>
+  <div><i class="fa-solid fa-money-bill"></i></div>
+  <div><i class="fa-solid fa-plus"></i></div>
+  <div><i class="fa-solid fa-exclamation"></i></div>
+ </div>
+ <div id="userdetails">
+   <h1>₹200</h1><br/>
+   <h3>Kajal Rajput</h3>
+   <p>900 Scrore • 21 Age • Active</p>
+   <button>Profile</button>
+ </div>
+</div>
+  </div>
+  <div id="a">
+     <div id="card">
+  <div id="back"><a href="index.html"> <i class="fa-solid fa-chevron-left"></i> </a></div>
+  <div class="icon">
+  <div><i class="fa-solid fa-heart"></i></div>
+  <div><i class="fa-solid fa-money-bill"></i></div>
+  <div><i class="fa-solid fa-plus"></i></div>
+  <div><i class="fa-solid fa-exclamation"></i></div>
+ </div>
+ <div id="userdetails">
+   <h1>₹3</h1><br/>
+   <h3>Rakesh Chowdhury</h3>
+   <p>30 Scrore • 20 Age • Active</p>
+   <button>Profile</button>
+ </div>
+</div>
+  </div>
+  <div id="a">
+     <div id="card">
+  <div id="back"><a href="index.html"> <i class="fa-solid fa-chevron-left"></i> </a></div>
+  <div class="icon">
+  <div><i class="fa-solid fa-heart"></i></div>
+  <div><i class="fa-solid fa-money-bill"></i></div>
+  <div><i class="fa-solid fa-plus"></i></div>
+  <div><i class="fa-solid fa-exclamation"></i></div>
+ </div>
+ <div id="userdetails">
+   <h1>₹100</h1><br/>
+   <h3>Amitabh Rao</h3>
+   <p>400 Scrore • 20 Age • Active</p>
+   <button>Profile</button>
+ </div>
+</div>
+  </div>
+  <div id="a">
+     <div id="card">
+  <div id="back"><a href="index.html"> <i class="fa-solid fa-chevron-left"></i> </a></div>
+  <div class="icon">
+  <div><i class="fa-solid fa-heart"></i></div>
+  <div><i class="fa-solid fa-money-bill"></i></div>
+  <div><i class="fa-solid fa-plus"></i></div>
+  <div><i class="fa-solid fa-exclamation"></i></div>
+ </div>
+ <div id="userdetails">
+   <h1>₹150</h1><br/>
+   <h3>Raju saha</h3>
+   <p>90 Scrore • 25 Age • Active</p>
+   <button>Profile</button>
+ </div>
+</div>
+  </div>
+</div>
+</body>
+</html>
